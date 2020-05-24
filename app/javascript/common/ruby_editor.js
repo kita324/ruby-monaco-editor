@@ -6,9 +6,9 @@ export default {
       value: code || '# ここから書いてください\nputs "Hello, world"\n\n\n',
       language: 'ruby',
       theme: "vs-dark",
-      useTabStops: true,
-      tabCompletion: "on",
       tabSize: 2,
+      insertSpaces: true,
+      autoIndent: true,
       minimap: { enabled: false },
       automaticLayout: true,
     });
